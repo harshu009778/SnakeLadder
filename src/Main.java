@@ -8,5 +8,8 @@ public class Main{
         // ----- UC2 ----
         p1.generateNumber();
 
+        // ---- uc3 =-----
+        p1.updatePosition();
+
     }
 }
