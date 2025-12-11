@@ -27,4 +27,18 @@ public class Player {
         }
     }
 
+    // ----- uc4 -------
+    public  void updateTillReaches100(){
+        int count = 0;
+        while(position <= 100){
+            if(position < 0){
+                position = 0;
+            }
+            updatePosition();
+            count++;
+        }
+        System.out.println("Number of steps taken to reach 100 : " + count);
+        System.out.println("Player Reaches 100");
+    }
+
 }

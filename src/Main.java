@@ -11,5 +11,8 @@ public class Main{
         // ---- uc3 =-----
         p1.updatePosition();
 
+        // ----- uc4 ----
+        p1.updateTillReaches100();
+
     }
 }
